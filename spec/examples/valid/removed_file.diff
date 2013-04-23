@@ -1,0 +1,8 @@
+--- spec/factories/diffs/new_file.diff	2013-03-31 13:56:25.000000000 +0100
++++ spec/factories/diffs/new_file.diff	2013-03-31 14:05:49.000000000 +0100
+@@ -1,5 +0,0 @@
+-This is a removed file
+-And these are
+-all
+-removed
+-lines

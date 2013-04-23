@@ -1,0 +1,7 @@
+--- File1	(revision 815)
++++ File1a	(working copy)
+@@ -1,4 +1,4 @@
+-testing1
++tester1
++One
++Two

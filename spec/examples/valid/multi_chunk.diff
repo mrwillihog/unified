@@ -1,0 +1,19 @@
+--- multi_chunk	2013-03-24 14:38:43.000000000 +0000
++++ multi_chunk	2013-03-24 14:38:52.000000000 +0000
+@@ -1,7 +1,7 @@
+ Line 1
+ Line 2
+ Line 3
+-Line4
++Line 4
+ Line 5
+ Line 6
+ Line 7
+@@ -15,6 +15,6 @@
+ Line 15
+ Line 16
+ Line 17
+-Line18
++Line 18
+ Line 19
+ Line 20

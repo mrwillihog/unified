@@ -1,0 +1,8 @@
+--- spec/factories/diffs/new_file.diff	2013-03-30 21:32:55.000000000 +0000
++++ spec/factories/diffs/new_file.diff	2013-03-30 21:32:44.000000000 +0000
+@@ -0,0 +1,5 @@
++This is a new file
++And these are
++all
++new
++lines
