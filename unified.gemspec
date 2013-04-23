@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["m.williams@me.com"]
   spec.description   = %q{A gem for parsign unified diff files into usable Ruby objects}
   spec.summary       = %q{A gem for parsing unified diff files into usable Ruby objects}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mrwillihog/unified"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
