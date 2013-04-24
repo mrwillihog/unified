@@ -96,6 +96,18 @@ describe "Unified::Chunk" do
         index += 1
       end
     end
+
+    it "does not pass line numbers for the no newline warning", focus: true do
+      no_newline_chunk = Unified::Chunk.new original: 1, modified: 1, lines: [" Line 1", "\\ No newline at end of file"]
+      index = 0
+      no_newline_chunk.each_line do |line, original_line_number, modified_line_number|
+        if index == 1
+          original_line_number.should be_nil
+          modified_line_number.should be_nil
+        end
+        index += 1
+      end
+    end
   end
 
   describe "#==" do

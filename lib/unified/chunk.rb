@@ -64,10 +64,12 @@ module Unified
         elsif line.deletion?
           yield line, original_line_number, nil
           original_line_number += 1
-        else
+        elsif line.unchanged?
           yield line, original_line_number, modified_line_number
           original_line_number += 1
           modified_line_number += 1
+        else
+          yield line
         end
       end
     end
