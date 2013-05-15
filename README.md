@@ -1,6 +1,6 @@
 # Unified
 
-Unified is a gem for parsing unified diff files into usable diff files.
+Unified is a gem for parsing unified diff files into plain old Ruby objects.
 
 ## Installation
 
